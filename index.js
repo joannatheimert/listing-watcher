@@ -30,7 +30,7 @@ const SITES = [
     {
         key: 'cej',
         name: 'CEJ',
-        url: 'https://udlejning.cej.dk/find-bolig/overblik?collection=residences&minRooms=2&monthlyPrice=0-50000&p=sj%C3%A6lland&types=apartment',
+        url: 'https://udlejning.cej.dk/find-bolig/overblik?collection=residences&minRooms=2&monthlyPrice=0-30000&p=sjælland%2Ckøbenhavn&types=apartment',
         linkSelector: 'a[href*="/boliger/"]',
         pathPrefix: '/boliger/',
         title: ($a) => $a.find('h6').first().text(),
