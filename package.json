@@ -1,0 +1,20 @@
+{
+  "name": "cejNotifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "commander": "^12.0.0",
+    "node-cron": "^3.0.3",
+    "node-fetch": "^3.3.2",
+    "twilio": "^5.0.1"
+  }
+}

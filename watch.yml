@@ -1,0 +1,42 @@
+name: Watch listings
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # every 5 minutes (GitHub's minimum; runs can be delayed a few minutes)
+  workflow_dispatch:         # lets you start it manually from the Actions tab
+
+permissions:
+  contents: write            # needed to commit listings.json back to the repo
+
+concurrency:
+  group: watch-listings
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Check listings
+        run: node index.js -f
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+
+      - name: Save seen listings
+        run: |
+          if [ -n "$(git status --porcelain listings.json)" ]; then
+            git config user.name "listing-watcher"
+            git config user.email "listing-watcher@users.noreply.github.com"
+            git add listings.json
+            git commit -m "Update listings"
+            git push
+          fi
