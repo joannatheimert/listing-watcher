@@ -134,6 +134,31 @@
             "title": "Skøn 4-værelses lejlighed i Lyngby",
             "link": "https://udlejning.cej.dk/boliger/12bf391df2c24a429926481748acce01",
             "foundAt": "2026-11-07T21:47:13.248Z"
+        },
+        "88f9e066c7b6487eb8b6b9fba119b08f": {
+            "title": "Skøn 2-værelses i Ørestaden",
+            "link": "https://udlejning.cej.dk/boliger/88f9e066c7b6487eb8b6b9fba119b08f",
+            "foundAt": "2026-11-09T19:10:37.010Z"
+        },
+        "8c672e3de5f14325b399005875d8db5b": {
+            "title": "Skøn 3-værelses i Ørestaden",
+            "link": "https://udlejning.cej.dk/boliger/8c672e3de5f14325b399005875d8db5b",
+            "foundAt": "2026-11-09T19:10:37.011Z"
+        },
+        "21eddc3493424461b6875f8bf38c8af6": {
+            "title": "Skøn 3-værelses stuelejlighed med fin lille tilhørende have",
+            "link": "https://udlejning.cej.dk/boliger/21eddc3493424461b6875f8bf38c8af6",
+            "foundAt": "2026-11-09T19:10:37.012Z"
+        },
+        "b99c5d12d09947a1a9c764fda2f98bb9": {
+            "title": "Lys og moderne 2-værelses i Ballerup 2750",
+            "link": "https://udlejning.cej.dk/boliger/b99c5d12d09947a1a9c764fda2f98bb9",
+            "foundAt": "2026-11-09T19:10:37.013Z"
+        },
+        "1ba3474446084e008ea280f1e0b65acf": {
+            "title": "2-værelses studiebolig på Teglholmen",
+            "link": "https://udlejning.cej.dk/boliger/1ba3474446084e008ea280f1e0b65acf",
+            "foundAt": "2026-11-09T19:10:37.014Z"
         }
     },
     "kereby": {
@@ -166,6 +191,11 @@
             "title": "Kronprinsensgade 10, 3., 1114 København K 4-værelses lejlighed i indre by med 3 sovevær. 25.777 kr./md. 4 værelser 154 m2",
             "link": "https://kereby.dk/bolig/kronprinsensgade-10-3-1114-kobenhavn-k/",
             "foundAt": "2026-11-03T18:41:30.735Z"
+        },
+        "aboulevard-48-1-th-2200-kobenhavn-n": {
+            "title": "Åboulevard 48, 1. th, 2200 København N 2-værelses lejlighed på Nørrebro 16.500 kr./md. 2 værelser 90 m2",
+            "link": "https://kereby.dk/bolig/aboulevard-48-1-th-2200-kobenhavn-n/",
+            "foundAt": "2026-11-09T19:10:38.489Z"
         }
     }
 }
